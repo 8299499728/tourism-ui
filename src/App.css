@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+.navbar-brand {
+  cursor: pointer;
+}
+.nav-item {
+  cursor: pointer;
+  font-size: 18px;
+}
+.navbar-nav.mb-2.mb-lg-0 {
+  margin-left: auto;
+}
+.header{
+  background-color: #7ece5a;
+}
+.navbar-expand-lg{
+  background-color: #7ece5a;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  overflow: -moz-hidden-unscrollable;
+}.navbar.navbar-expand-lg.navbar-light.bg-light {
+  padding: 0;
+}
+.logo{
+  display: flex;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.error{
+  margin-top: 200px;
+}
+.error.text-center {
+  color: #ac4848;
+}
+.horizontalSpace{
+  width: 20px;
+}
+.form-background {
+  background-color: darkseagreen;;
+  margin-top: 80px;
+  padding: 50px 0;
+}
+.packageDiv {
+  margin-top: 50px;
+}
+.choosePackage.text-center {
+  color: #ef3a3a;
+}
+.packageRow {
+  margin-top: 20px;
+}
+.img-fluid:hover {
+  transform: scale(1.1);
+  -webkit-transition: linear 0.5s;
+}
+.navbar-toggler {
+  background-color: gray;
+border: 1px solid gray;
+}
+.imgDiv {
+  overflow: hidden;
+}
+.prices{
+  display: flex;
+  margin-top: 20px;
+  background-color: wheat;
+}
+.days-plan {
+  margin-left: 43%;
+}
+.woldMap {
+  height: 500px;
+  width: 100%;
+}
+.background-img{
+  margin-top: 50px;
+  background-image: url(../src/images/pexels-pixabay-220201.jpg);
+
+  color: orange;
+}
+.icon-img {
+  text-align: center;
+}
+.icon-text {
+  margin-top: 20px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
